@@ -55,7 +55,9 @@ def start_game():
                     if invite.lower() == "yes":
                         add_to_attempts_record(attempts_count)
                         start_game()
-                        break         
+                    else:
+                        add_to_attempts_record(attempts_count)
+                        start_game()         
             elif players_guess > correct_number:
                 print("It's lower!")
                 attempts_count += 1
