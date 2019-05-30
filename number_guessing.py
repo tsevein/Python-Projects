@@ -12,17 +12,17 @@ def show_highest_score():
 def show_intro():
     text = "======> Welcome to the Number Guessing Game! <======"
     text_len = len(text)
-    print("-" * text_len)
+    print("—" * text_len)
     print(text)
-    print("-" * text_len + "\n")
+    print("—" * text_len + "\n")
 
 
 def show_outro():
     text = "======> Until next time! <======"
     text_len = len(text)
-    print("\n" + "-" * text_len)
+    print("\n" + "—" * text_len)
     print(text)
-    print("-" * text_len)
+    print("—" * text_len)
 
 
 attempts_record = []
