@@ -52,12 +52,11 @@ def start_game():
                     if invite.lower() == "no":
                         show_outro()    
                         break
-                    if invite.lower() == "yes":
+                    elif invite.lower() == "yes":
                         add_to_attempts_record(attempts_count)
                         start_game()   
                         return()
                     else:
-                        correct_number = random.randint(0, 10) 
                         add_to_attempts_record(attempts_count)
                         start_game()
                         return()         
