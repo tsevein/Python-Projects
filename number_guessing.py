@@ -68,6 +68,6 @@ def start_game():
                 print("It's higher!")
                 attempts_count += 1
                 continue    
-   
+    print()
 show_intro()
 start_game()
